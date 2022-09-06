@@ -1,2 +1,2 @@
 # Algorithms
-Implementation of ALgorithms
+Implementation of Algorithms
