@@ -11,11 +11,11 @@ public class SelectionSortImpl {
         System.out.println("Enter array elements:");
         int[] arr = new int[size];
         int i = 0;
-        while (sc.hasNextInt()) {
+        while (i < size && sc.hasNextInt()) {
             arr[i++] = sc.nextInt();
         }
         Arrays.sort(arr);
-        System.out.println(arr);
+        System.out.println(Arrays.toString(arr));
     } catch (Exception e) {
         System.err.println(e.getLocalizedMessage());
     }
